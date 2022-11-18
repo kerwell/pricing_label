@@ -55,12 +55,12 @@ html {
 
 body {
     background-color: #60a9ff;
-    display: flex;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .panel {
     background-color: white;
-    display: flex;
-    margin: 0 auto;
-    /* centered items */
 }
