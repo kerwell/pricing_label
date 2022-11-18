@@ -55,4 +55,12 @@ html {
 
 body {
     background-color: #60a9ff;
+    display: flex;    
+}
+
+.panel {
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    /* centered items */
 }
