@@ -228,6 +228,7 @@ body {
     display: inline-block;
     text-decoration: none;
     margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
     /* inline block basically makes it so that the css added stays
     within the line */
 }
@@ -248,4 +249,14 @@ body {
         border-right: 1px solid #e1f1FF;
         padding: 25px 50px;
     }
+}
+
+.pricing-button:hover, .pricing-button:focus{
+    cursor: pointer;
+    background-color: #e1f1FF
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
+    background-color: #269aff;
+    color: white
 }
