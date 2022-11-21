@@ -161,6 +161,37 @@ body {
     width: 100%;
     max-width: 960px;
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    /* align-items: flex-start; */
     /* need a width relative to parent first to say min/max 
     max-width is locking the width to never go bigger than what it is set as */
+}
+
+.pricing-plan {
+    border-bottom: 1px solid #e1f1;
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+}
+
+.pricing-header {
+    letter-spacing: 1px;
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* margin-bottom: 50px; */
+}
+
+.pricing-features-item{
+    border-top:  1px solid #e1f1ff;
+    padding: 15px 0;
+    font-weight: 600;
+    color:#016ff9;
+}
+
+ul{
+    display: block;
 }
