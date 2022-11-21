@@ -185,11 +185,22 @@ body {
     /* margin-bottom: 50px; */
 }
 
+.pricing-features {
+    margin: 50px 0 25px;
+}
+
 .pricing-features-item{
     border-top:  1px solid #e1f1ff;
     padding: 15px 0;
     font-weight: 600;
     color:#016ff9;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.pricing-features-item:nth-of-type(2){
+    border-bottom: 1px solid #e1f1ff;
 }
 
 ul{
