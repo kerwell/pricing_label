@@ -207,6 +207,8 @@ body {
 }
 
 .pricing-features-item:nth-of-type(2){
+    /* .pricing-features-items:last-of-child works here too
+    because 2 is also the last of its type. */
     border-bottom: 1px solid #e1f1ff;
 }
 
