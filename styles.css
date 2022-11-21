@@ -150,7 +150,7 @@ body {
     min-height: 100vh;
     /* without a height, it can't move through the cross axis 
     with min-height, we make the height 100% of the screen, making it able to
-    be placed in the middle of the cross axis.*/
+    be placed in the middle of the cross axis using align-items.*/
 }
 
 .panel {
@@ -173,8 +173,13 @@ body {
     border-bottom: 1px solid #e1f1;
 }
 
+.pricing-plan:last-child{
+    border: none;
+}
+
 .pricing-img {
     margin-bottom: 25px;
+    width: 100%;
 }
 
 .pricing-header {
@@ -203,6 +208,23 @@ body {
     border-bottom: 1px solid #e1f1ff;
 }
 
-ul{
-    display: block;
+.pricing-price {
+    color: #016ff9;
+    font-size: 32px;
+    font-weight: 700;
 }
+
+.pricing-button{
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    padding: 15px 35px;
+    color: #3483f3;
+    display: inline-block;
+    text-decoration: none;
+    /* inline block basically makes it so that the css added stays
+    within the line */
+}
+
+/* ul {
+    display: block;
+} */
