@@ -242,8 +242,6 @@ body {
     .panel{
         flex-direction: row;
     }
-}
-@media (min-width: 900px){
     .pricing-plan{
         border-bottom: none;
         border-right: 1px solid #e1f1FF;
