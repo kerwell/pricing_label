@@ -170,7 +170,7 @@ body {
 }
 
 .pricing-plan {
-    border-bottom: 1px solid #e1f1;
+    border-bottom: 1px solid #e1f1FF;
 }
 
 .pricing-plan:last-child{
@@ -201,6 +201,8 @@ body {
     color:#016ff9;
     font-size: 12px;
     line-height: 1.5;
+    /* line-height is the gap between the text that break into
+    new lines */
     letter-spacing: 1px;
 }
 
@@ -212,6 +214,8 @@ body {
     color: #016ff9;
     font-size: 32px;
     font-weight: 700;
+    display: block;
+    /* display:block breaks it into its own line!!!! */
 }
 
 .pricing-button{
@@ -221,10 +225,25 @@ body {
     color: #3483f3;
     display: inline-block;
     text-decoration: none;
+    margin: 25px 0;
     /* inline block basically makes it so that the css added stays
     within the line */
 }
 
-/* ul {
-    display: block;
-} */
+.pricing-button.is-featured{
+    background-color: #48aaff;
+    color: white;
+}
+
+@media (min-width: 900px){
+    .panel{
+        flex-direction: row;
+    }
+}
+@media (min-width: 900px){
+    .pricing-plan{
+        border-bottom: none;
+        border-right: 1px solid #e1f1FF;
+        padding: 25px 50px;
+    }
+}
